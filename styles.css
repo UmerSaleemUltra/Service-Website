@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+  }
+  
+  .navbar {
+    padding: 1rem 1rem;
+  }
+  
+  .logo {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .text-white:hover {
+    color: #ddd;
+  }
+  
+  .border-white:hover {
+    border-color: #ddd;
+  }
+  
+  .bg-red-600:hover {
+    background-color: #ff4d4d;
+  }
+  
+  .navbar-collapse {
+    display: none;
+  }
+  
+  #navbar-toggle:checked + .navbar-collapse {
+    display: block;
+  }
+  
